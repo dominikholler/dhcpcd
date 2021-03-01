@@ -1,2 +1,2 @@
 FROM registry.fedoraproject.org/fedora:latest
-RUN dnf -y install dhcpcd && dnf clean all
+RUN dnf -y install dhcpcd iproute && dnf clean all
